@@ -1,36 +1,31 @@
 # Unit 19: Supervised Machine Learning
 
 ## Overview
+Lending services companies allow individual investors to partially fund personal loans as well as buy and sell notes backing the loans on a secondary market. This data will be used to
+You will be using this data to create machine learning models to classify the risk level of given loans. Specifically, you will be comparing the Logistic Regression model and Random Forest Classifier.
 
-This class will begin our exploration of machine learning, focusing on supervised machine learning models. 
 
-## Learning Objectives
+PREDICTIONS
 
-By the end of this unit, you'll be able to: 
+I strongly believe that the Random Forest Classifier would give a better result than the Logistic Regression Model.
 
-* Explain how machine learning algorithms are used in data analytics.
 
-* Create training and testing sets from a specified dataset.
 
-* Implement linear and logistic regressions by using scikit-learn.
+RESULTS 
+The RFC model score is 0.9922100701609575 and LFC model score is 0.9924680148576145.
 
-* Create confusion matrixes for classification outputs.
 
-* Calculate and apply fundamental classification algorithms: logistic regression, support vector machine (SVM), and k-nearest neighbors (KNN).
+CONCLUSION
 
-* Quantify and evaluate classification models by using confusion matrixes.
+The machine Language algorithims Ramdom Forest Classifier (RFC) and Logistics Regression Model(LFC) are used for different disciplines for classification and regression purposes.
+The RFC model score is 0.9922100701609575 and LFC model score is 0.9924680148576145.
 
-* Implement one-hot encoding in Pandas, and scaling and normalization with scikit-learn.
+This doesnt do justice to my prediction. I predicted that RFC would do better but LFC did better.
 
-* Calculate and apply bagging and boosting methods to create and use ensemble algorithms.
 
-* Describe regularization parameters for regressions, and select appropriate parameters for a given problem.
 
-* Use Random Forests and LASSO regressions to assist in the feature selection process.
 
-## Helpful Links
 
-* [scikit-learn](https://scikit-learn.org/stable/)
 
 —
 
